@@ -1,0 +1,25 @@
+body {
+    padding-top: 5rem;
+}
+
+.form-group{
+    width:400px;
+}
+form textarea{
+    width:500px;
+    height:90px;
+}
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {
+    float:none;
+    
+}
+
+.row justify-content-center {
+    margin-top: 100px;
+}
