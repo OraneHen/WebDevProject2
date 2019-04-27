@@ -11,7 +11,7 @@ TOKEN_SECRET = ''
 app = Flask(__name__)
 csrf = CSRFProtect(app)
 
-app.config['SECRET_KEY'] = ""
+app.config['SECRET_KEY'] = "SECRET_KEY"
 app.config['SQLALCHEMY_DATABASE_URI'] = ''
 app.config['UPLOAD_FOLDER'] = "./app/static/uploads"
 
